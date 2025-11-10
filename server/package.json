@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "mongodb-memory-server": "^10.3.0",
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
